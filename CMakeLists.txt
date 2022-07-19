@@ -22,6 +22,10 @@ set(SRCS
     ./include/renderSystem.h
     ./include/engine.h
     ./include/shader.h
+    ./include/stb_image.h
+    ./src/stb_image.cpp
+    ./include/texture.h
+    ./src/texture.cpp
     )
 
 set(CMAKE_CXX_FLAGS "-g -std=c++11 -Wformat")
